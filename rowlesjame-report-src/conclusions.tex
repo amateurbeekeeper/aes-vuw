@@ -1,0 +1,88 @@
+\chapter{Conclusion}\label{C:conclusion} 
+
+\section{Current State}
+
+\paragraph{Accuracy}
+The current state of the system is that it seems to perform really well when predicting the overall score, for the, much larger, Hewlett Kaggle Competition Data. 
+However, in all other cases, the results are just not strong enough for this system to be released yet. Fortunately, there are still a number of refinements that can be performed as well as further feature  discovery. 
+
+\paragraph{Easy of Use, Explain-ability}
+In terms of the systems easy of use and explain-ability, because these traits have been heavily prioritised throughout the project, their overall nature is strong. 
+
+\section{Future Work}
+
+\paragraph{The Feature Extractor}
+
+One observation that  stood out to me was the overlapping of common features within the top Features for a Feature Category.  Going forward, I think the first most optimal task to improve performance, would be to firstly, update The Feature Extractor implementation so that it can process the same feature to multiple categories without any bugs. 
+
+\paragraph{Feature Categories}
+
+I have observed good results for both data sets for using all features to predict the overall scores for these datasets. However, the system performs relatively worse when trying to predict a specific marking category. As well as this, in the feature importance tests, it was clear that all feature categories are not incorporating most of their strongest features. Both of these traits lead me to believe that the feature's for each category can be further refined. 
+
+Following this, I would update the feature categories according to the feature importance test. Then, to observe, the change in performance I would execute a batch job for all datasets against The Feature Extractor and Agreement Calculators.
+
+\paragraph{Sample Size}
+
+Although it is not relatively surprising to observe a performance decrease with the domain data. I think it would be beneficial to understand that relationship netter. So another area which would be good to gain clarity into would be the relationship between the sample size and the performance with the EPP VUW data. 
+
+\backmatter
+
+    [1]“English for Academic Purposes,” Victoria University of Wellington, 2021. https://www.wgtn.ac.nz/explore/other-quals/english-academic-purposes/overview (accessed Oct. 31, 2021).
+  
+
+    [2]M. D. Shermis and J. C. Burstein, Automated Essay Scoring: A Cross-disciplinary Perspective. Routledge, 2003.
+  
+
+    [3]A. Harris et al., “A Study of the Use of the e-rater Scoring Engine for the Analytical Writing Measure of the GRE revised General Test,” Educational Testing Service, 2014.
+  
+
+    [4]M. D. Shermis and J. Burstein, Handbook of Automated Essay Evaluation: Current Applications and New Directions. Routledge, 2013.
+  
+
+    [5]J. H. Friedman, “Recent Advances in Predictive (Machine) Learning,” Journal of Classification, vol. 23, no. 2, pp. 175–197, Sep. 2006, doi: 10.1007/s00357-006-0012-4.
+  
+
+    [6]Contributors to Wikimedia projects, “Mathematical model,” Wikipedia, Oct. 06, 2021. https://en.wikipedia.org/wiki/Mathematical_model (accessed Oct. 31, 2021).
+  
+
+    [7]Contributors to Wikimedia projects, “Regression analysis,” Wikipedia, Oct. 02, 2021. https://en.wikipedia.org/wiki/Regression_analysis (accessed Oct. 31, 2021).
+  
+
+    [8]Contributors to Wikimedia projects, “Statistical classification,” Wikipedia, Jun. 11, 2021. https://en.wikipedia.org/wiki/Statistical_classification (accessed 2021).
+  
+
+    [9]Contributors to Wikimedia projects, “Artificial neural network,” Wikipedia, Oct. 29, 2021. https://en.wikipedia.org/wiki/Artificial_neural_network (accessed Oct. 31, 2021).
+  
+
+    [10]Contributors to Wikimedia projects, “Feature extraction,” Wikipedia, Oct. 20, 2021. https://en.wikipedia.org/wiki/Feature_extraction (accessed Oct. 31, 2021).
+  
+
+    [11]M. Uto, Y. Xie, and M. Ueno, “Neural Automated Essay Scoring Incorporating Handcrafted Features,” 2020. Accessed: Oct. 31, 2021. [Online]. Available: http://dx.doi.org/10.18653/v1/2020.coling-main.535
+  
+
+    [12]H. Chen and B. He, “Automated Essay Scoring by Maximizing Human-machine Agreement,” presented at the Conference on Empirical Methods in Natural Language Processing, Seattle, Washington, USA, 2013. Accessed: 2021. [Online]. Available: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.592.9779&rep=rep1&type=pdf
+  
+
+    [13]D. Pyle, Business Modeling and Data Mining. Elsevier, 2003.
+  
+
+    [14]Contributors to Wikimedia projects, “Nonlinear system,” Wikipedia, Sep. 24, 2021. https://en.wikipedia.org/wiki/Nonlinear_system (accessed Oct. 31, 2021).
+  
+
+    [15]M. Lilja, “Automatic Essay Scoring of Swedish Essays using Neural Networks,” Thesis, Department of Statistics Uppsala University, 2018. Accessed: 2021. [Online]. Available: https://uu.diva-portal.org/smash/get/diva2:1213688/FULLTEXT01.pdf
+  
+
+    [16]Victoria University of Wellington, “Vocabulary Lists,” Victoria University of Wellington, 2021. https://www.wgtn.ac.nz/lals/resources/paul-nations-resources/vocabulary-lists (accessed 2021).
+  
+
+    [17]A. T. Moore, “Applying the Developmental Path of English Negation to the Automated Scoring of Learner Essays ,” Thesis, Brigham Young University, 2018. Accessed: 2021. [Online]. Available: https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=7835&context=etd
+  
+
+    [18]J. Shin and M. Gierl, “Using Automated Procedures to Machine Score Essays Written in the New Zealand NCEA Examination Content Areas of English and History,” Centre for Research in Applied Measurement and Evaluation, University of Alberta, Jun. 2020. [Online]. Available: https://www.nzqa.govt.nz/assets/About-us/Future-State/NCEA-Online/research-and-innovation/UoA-CRAME-report-Automated-Essay-Marking.pdf
+  
+
+    [19]carlolepelaars, “Understanding The Metric: Quadratic Weighted Kappa,” Kaggle, Nov. 23, 2019. Accessed: Nov. 05, 2021. [Online]. Available: https://www.kaggle.com/carlolepelaars/understanding-the-metric-quadratic-weighted-kappa
+  
+
+    [20]A. Viera and J. Garrett, “Understanding interobserver agreement: the kappa statistic,” Fam med, 2005.
+  
