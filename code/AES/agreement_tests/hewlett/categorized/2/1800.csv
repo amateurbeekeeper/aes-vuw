@@ -1,0 +1,13 @@
+Score, Category, QWK, P, A, E, Model
+Writing_Applications,Grammar,0.565,0.684,0.986,0.489,SVR
+Writing_Applications,Vocab,0.583,0.585,0.986,0.581,DTR
+Writing_Applications,Flow,0.596,0.6,0.981,0.567,DTR
+Writing_Applications,Ideas,0.567,0.687,0.986,0.483,SVR
+Writing_Applications,Coherence,0.558,0.56,0.975,0.586,DTR
+Writing_Applications,Overall,0.617,0.621,0.983,0.597,DTR
+Language_Conventions,Grammar,0.626,0.629,0.983,0.653,DTR
+Language_Conventions,Vocab,0.544,0.549,0.975,0.561,DTR
+Language_Conventions,Flow,0.482,0.488,0.975,0.519,DTR
+Language_Conventions,Ideas,0.342,0.529,0.969,0.347,SVR
+Language_Conventions,Coherence,0.404,0.409,0.95,0.528,DTR
+Language_Conventions,Overall,0.566,0.571,0.983,0.586,DTR
